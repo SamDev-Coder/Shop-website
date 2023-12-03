@@ -1,0 +1,408 @@
+body{
+    background-color: #f4f4f4;
+    color: #555;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+
+.clr{
+    clear: both;
+}
+
+.container{
+    margin: auto;
+    width: 80%;
+    overflow: hidden;
+}
+
+
+#main-header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    background-color: white;
+    color: darkmagenta;
+    margin-bottom: 30px;
+    
+
+}
+
+.logo-cont{
+    display: flex;
+    align-items: center;
+}
+
+
+.logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    padding-right: 10px;
+}
+
+.logo:hover{
+    transform: rotate(360deg);
+    transition: transform 0.5s ease-in-out;
+}
+
+#navbar{
+    background-color: #3498db;
+    position: fixed;
+    top: 2;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    display: inline;
+    padding-right: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    transform: background-color #f4f4f4;
+}
+
+#navbar a:hover{
+    background-color: rgb(238, 234, 234);
+    color: #3498db;
+    padding: 15px;
+}
+
+#about{
+    padding: 20px;
+    background-color: coral;
+    min-height: 300px;
+    margin-top: 70px;
+}
+
+#about h1{
+    color: #fff;
+    margin-bottom: 10px;
+    padding-top: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#about h1:hover{
+    color: blue;
+}
+
+#about p{
+    color: #fff;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+#showcase{
+    background-color: rgba(230, 225, 225, 0.815);
+}
+
+#showcase h1{
+    color: blue;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#showcase h1:hover{
+    color: darkmagenta;
+}
+
+.laptops{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-right: 10px;
+    transition: transform .4s;
+   
+}
+
+.laptops:hover{
+    transform: scale(1.1);
+}
+
+.img-1{
+    height: 300px;
+    width: 400px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.Directors{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+    margin-top:50px;
+ 
+}
+
+#Directors{
+background-color: rgb(215, 185, 243);
+
+}
+.dirimage{
+    width: 400px;
+    height: 400px;
+    
+}
+
+.video-text{
+    margin: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    row-gap: 1px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    line-height: 1px;
+}
+
+#About-CEO{
+    float: left;
+    width: 70%;
+    background-color: darkmagenta;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+
+#About-CEO h1{
+    color: #fff;
+    font-weight: bold;
+
+}
+
+#About-CEO h1:hover{
+    color: blue;
+}
+
+#About-CEO p{
+    color: #fff;
+    font-weight: bold;
+}
+
+#right{
+    float: right;
+    width: 30%;
+    box-sizing: border-box;
+    background-color: coral;
+    padding: 21px;
+}
+
+#right h1{
+    color: #fff;
+    font-weight: bold;
+}
+
+#right h1:hover{
+    color: blue;
+}
+
+#right p{
+    color: #fff;
+    font-weight: bold;
+}
+
+#review{
+    background-color: rgb(150, 66, 66);
+    color: #fff;
+    padding: 20px;
+  
+}
+
+.Customers-review{
+    float: left;
+    width: 33.3%;
+    border: 2px solid rgb(245, 232, 232);
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    transition: transform .3s;
+}
+
+.Customers-review:hover{
+    transform: scale(1.1);
+}
+
+
+#review h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#review h2:hover{
+    color: blue;
+}
+
+.Customers-review p{
+    font-style: italic;
+}
+
+
+
+#main-footer{
+   background-color: black;
+   color: white;
+   text-align: center; 
+}
+
+#main-footer h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.right-footer{
+    margin-bottom: 10px;
+    float: left;
+    width: 33.3%;
+    padding: 10px;
+    box-sizing: border-box;
+    line-height: 1.2em;
+}
+
+.right-footer h3{
+    text-transform: uppercase;
+}
+
+.right-footer h3:hover{
+    color: blue;
+}
+
+.right-footer h3:active{
+    color: red;
+}
+
+#sub{
+    background-color: bisque;
+    color: rgb(100, 100, 100);
+}
+
+.Search-bar{
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+.Second-bar{
+    float: right;
+    width: 30%;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.button{
+    padding: 10px;
+    width: 200px;
+    border-radius: 100px;
+    background-color: white;
+    border: none;
+    margin-bottom: 30px;
+    box-shadow: 2px solid darkgray;
+    
+}
+
+.button:hover{
+    background-color: darkgray;
+    color: #fff;
+}
+
+.button-2{
+    font-family: helvetica, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    font-weight: 400px;
+    padding: 10px;
+    height: 30px;
+    border-radius: 15px;
+    width: 60px;
+    border: none;
+    background-color: #fff;
+}
+
+.button-2:hover{
+    background-color: #3498db;
+    color: #fff;
+}
+
+.download-button{
+    padding: 10px;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 120px;
+    margin-bottom: 20px;
+    transition: background-color .3s;
+    font-weight: bold;
+
+}
+
+.download-button:hover{
+  background-color: rgb(2, 2, 87);
+  opacity: .0.5;
+  transform: translateX(10);
+  color: white;
+}
+
+@media(max-width: 600px){
+    .Customers-review{
+        width: 100%;
+        float: none;
+    }
+    #About-CEO{
+        width: 100%;
+        float: none;
+    }
+
+    #right{
+        width: 100%;
+        float: none;
+    }
+   .dirimage{
+        width: 100%;
+        float: none;
+    }
+
+    .img-1{
+        width: 100%;
+        float: none;
+    }
+    .right-footer{
+        width: 100%;
+        float: none;
+    }
+    .download-button{
+        width: 100%;
+        float: none;
+    }
+    .Search-bar{
+        width: 100%;
+        float: none;
+    }
+    .Second-bar{
+        width: 100%;
+        float: none;
+    }
+    #navbar li{
+        width: 100%;
+        float: none;
+    }
+}
